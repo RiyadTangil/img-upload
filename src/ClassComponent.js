@@ -16,7 +16,7 @@ export default class ClassComponent extends Component {
         }
     };
 
-    componentDidMount() { }
+
 
     render() {
 
