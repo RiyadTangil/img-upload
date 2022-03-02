@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useState } from 'react';
 import { useDropzone } from 'react-dropzone';
 import './App.css';
-import ClassComponent from './ClassComponent'
+import ImgUpload from './ImgUpload'
 function App() {
   const [images, setImages] = useState([])
   function handleUpload() {
@@ -30,7 +30,7 @@ function App() {
   console.log(getInputProps(), getRootProps())
   return (
     <>
-    <ClassComponent></ClassComponent>
+    <ImgUpload/>
       <div>
         <div className='dropzone' {...getRootProps()}>
           <input {...getInputProps} />
