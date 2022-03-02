@@ -25,7 +25,7 @@ export default class ImgUpload extends Component {
                 <div>
                     <div>
                         <div style={{display: 'flex', justifyContent: 'center'}}>
-                            <img style={{ height: "100px", width: "100px" }} src={this.state.image} />
+                            <img style={{ height: "200px", width: "200px" }} src={this.state.image} />
                         </div>
                         <h1>Select Image</h1>
                         <input type="file" name="myImage" onChange={this.onImageChange} />
